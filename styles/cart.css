@@ -1,0 +1,41 @@
+#shop-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("../img/banner/banner8.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 45% right 0%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 15px;
+}
+#shop-hero h2 {
+  color: #fff;
+  font-size: 60px;
+}
+#shop-hero p {
+  color: #fff;
+  font-size: 25px;
+}
+
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: #839493;
+  padding: 15px 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 400;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,88 @@
+.about-header{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .3)), url("../img/banner/banner10.jpg");
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 30% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 15px;
+}
+
+.about-header h2{
+    color: #FFF;
+}
+
+.about-header p{
+    color: #FFF;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-head h2{
+    font-family: 'Bugisnia';
+    font-size: 55px;
+    color:#1B2A37;
+}
+
+#about-video h1{
+    font-size: 40px;
+    font-weight: 500;
+    color:#1B2A37;
+}
+
+#about-video h1 span{
+    color: #B5A4A3;
+    font-weight:700;
+}
+
+#about-video {
+    text-align: center;
+}
+
+#about-video .video{
+    width: 90%;
+    height:100%;
+    margin: 30px auto 0 auto;
+}
+
+#about-video .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width:477px) {
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #about-head div{
+        padding-left: 0px;
+    }
+    #about-video .video{
+        width: 100%;
+    }
+    #about-head h2{
+        font-size: 45px;
+        text-align: center;
+    }
+}
